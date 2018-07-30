@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273672A51F1A29BD00D4477D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273672A41F1A29BD00D4477D /* MapViewController.swift */; };
+		2750DE681F1A19A400CB03AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750DE671F1A19A400CB03AC /* AppDelegate.swift */; };
+		2750DE6D1F1A19A400CB03AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750DE6B1F1A19A400CB03AC /* Main.storyboard */; };
+		2750DE6F1F1A19A400CB03AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2750DE6E1F1A19A400CB03AC /* Assets.xcassets */; };
+		2750DE721F1A19A400CB03AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750DE701F1A19A400CB03AC /* LaunchScreen.storyboard */; };
+		2750DE7D1F1A19A500CB03AC /* Jitensha_SaitamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750DE7C1F1A19A500CB03AC /* Jitensha_SaitamaTests.swift */; };
+		2750DE881F1A1A5000CB03AC /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750DE871F1A1A5000CB03AC /* LoginScreenViewController.swift */; };
+		2750DE8A1F1A1A8000CB03AC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750DE891F1A1A8000CB03AC /* Common.swift */; };
+		2750DE8C1F1A1ADE00CB03AC /* CommonFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750DE8B1F1A1ADE00CB03AC /* CommonFunctionality.swift */; };
+		2750DE8F1F1A1D3900CB03AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750DE8E1F1A1D3900CB03AC /* Foundation.framework */; };
+		277ABED41F1AA9C900EB2304 /* CycleRentPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABED31F1AA9C900EB2304 /* CycleRentPaymentViewController.swift */; };
+		277ABED71F1AAE4200EB2304 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABED61F1AAE4200EB2304 /* MonthYearPickerView.swift */; };
+		277ABED91F1AB94F00EB2304 /* ViewPaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABED81F1AB94F00EB2304 /* ViewPaymentsViewController.swift */; };
+		277ABEDB1F1ABCDE00EB2304 /* PaymentTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABEDA1F1ABCDE00EB2304 /* PaymentTableviewCell.swift */; };
+		277ABEDD1F1ABF1200EB2304 /* PaymentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABEDC1F1ABF1200EB2304 /* PaymentStruct.swift */; };
+		277ABEE01F1AD83E00EB2304 /* CardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABEDF1F1AD83E00EB2304 /* CardValidator.swift */; };
+		277ABEE41F1AD98200EB2304 /* AKPickerView-Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 277ABEE11F1AD98200EB2304 /* AKPickerView-Swift.podspec */; };
+		277ABEE51F1AD98200EB2304 /* AKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ABEE31F1AD98200EB2304 /* AKPickerView.swift */; };
+		27F513501F1A4F93003FCAC2 /* LocationStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5134F1F1A4F93003FCAC2 /* LocationStruct.swift */; };
+		27F513521F1A7048003FCAC2 /* BackendUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F513511F1A7048003FCAC2 /* BackendUrl.swift */; };
+		27F5135E1F1A756A003FCAC2 /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5135D1F1A756A003FCAC2 /* IJReachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2750DE791F1A19A500CB03AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2750DE5C1F1A19A400CB03AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2750DE631F1A19A400CB03AC;
+			remoteInfo = "Jitensha Saitama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273672A41F1A29BD00D4477D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2750DE641F1A19A400CB03AC /* Jitensha Saitama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jitensha Saitama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750DE671F1A19A400CB03AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2750DE6C1F1A19A400CB03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2750DE6E1F1A19A400CB03AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2750DE711F1A19A400CB03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2750DE731F1A19A400CB03AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2750DE781F1A19A500CB03AC /* Jitensha SaitamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jitensha SaitamaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750DE7C1F1A19A500CB03AC /* Jitensha_SaitamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jitensha_SaitamaTests.swift; sourceTree = "<group>"; };
+		2750DE7E1F1A19A500CB03AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2750DE871F1A1A5000CB03AC /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		2750DE891F1A1A8000CB03AC /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2750DE8B1F1A1ADE00CB03AC /* CommonFunctionality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctionality.swift; sourceTree = "<group>"; };
+		2750DE8E1F1A1D3900CB03AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		277ABED31F1AA9C900EB2304 /* CycleRentPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleRentPaymentViewController.swift; sourceTree = "<group>"; };
+		277ABED61F1AAE4200EB2304 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		277ABED81F1AB94F00EB2304 /* ViewPaymentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPaymentsViewController.swift; sourceTree = "<group>"; };
+		277ABEDA1F1ABCDE00EB2304 /* PaymentTableviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTableviewCell.swift; sourceTree = "<group>"; };
+		277ABEDC1F1ABF1200EB2304 /* PaymentStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentStruct.swift; sourceTree = "<group>"; };
+		277ABEDF1F1AD83E00EB2304 /* CardValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValidator.swift; sourceTree = "<group>"; };
+		277ABEE11F1AD98200EB2304 /* AKPickerView-Swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AKPickerView-Swift.podspec"; sourceTree = "<group>"; };
+		277ABEE21F1AD98200EB2304 /* AKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		277ABEE31F1AD98200EB2304 /* AKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPickerView.swift; sourceTree = "<group>"; };
+		27F5134F1F1A4F93003FCAC2 /* LocationStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationStruct.swift; sourceTree = "<group>"; };
+		27F513511F1A7048003FCAC2 /* BackendUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendUrl.swift; sourceTree = "<group>"; };
+		27F5135D1F1A756A003FCAC2 /* IJReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJReachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2750DE611F1A19A400CB03AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750DE8F1F1A1D3900CB03AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2750DE751F1A19A500CB03AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2750DE5B1F1A19A400CB03AC = {
+			isa = PBXGroup;
+			children = (
+				2750DE661F1A19A400CB03AC /* Jitensha Saitama */,
+				2750DE7B1F1A19A500CB03AC /* Jitensha SaitamaTests */,
+				2750DE8D1F1A1D0300CB03AC /* Frameworks */,
+				2750DE651F1A19A400CB03AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2750DE651F1A19A400CB03AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE641F1A19A400CB03AC /* Jitensha Saitama.app */,
+				2750DE781F1A19A500CB03AC /* Jitensha SaitamaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2750DE661F1A19A400CB03AC /* Jitensha Saitama */ = {
+			isa = PBXGroup;
+			children = (
+				277ABEE11F1AD98200EB2304 /* AKPickerView-Swift.podspec */,
+				277ABEE21F1AD98200EB2304 /* AKPickerView.h */,
+				277ABEE31F1AD98200EB2304 /* AKPickerView.swift */,
+				277ABEDE1F1AD81F00EB2304 /* validator */,
+				277ABED51F1AAE3700EB2304 /* DateMonthPicker */,
+				27F5135C1F1A752C003FCAC2 /* Network related functionality */,
+				27F5135B1F1A7513003FCAC2 /* Read me */,
+				27F5135A1F1A7502003FCAC2 /* Assets */,
+				27F513591F1A74F7003FCAC2 /* Plist */,
+				27F513571F1A74C1003FCAC2 /* Backend url */,
+				27F513561F1A74B6003FCAC2 /* Struct */,
+				27F513551F1A74A1003FCAC2 /* App delegate */,
+				27F513541F1A7492003FCAC2 /* View Controllers */,
+				27F513531F1A747D003FCAC2 /* Commons */,
+				27F513581F1A74D9003FCAC2 /* interface files */,
+			);
+			path = "Jitensha Saitama";
+			sourceTree = "<group>";
+		};
+		2750DE7B1F1A19A500CB03AC /* Jitensha SaitamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE7C1F1A19A500CB03AC /* Jitensha_SaitamaTests.swift */,
+				2750DE7E1F1A19A500CB03AC /* Info.plist */,
+			);
+			path = "Jitensha SaitamaTests";
+			sourceTree = "<group>";
+		};
+		2750DE8D1F1A1D0300CB03AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE8E1F1A1D3900CB03AC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		277ABED51F1AAE3700EB2304 /* DateMonthPicker */ = {
+			isa = PBXGroup;
+			children = (
+				277ABED61F1AAE4200EB2304 /* MonthYearPickerView.swift */,
+			);
+			name = DateMonthPicker;
+			sourceTree = "<group>";
+		};
+		277ABEDE1F1AD81F00EB2304 /* validator */ = {
+			isa = PBXGroup;
+			children = (
+				277ABEDF1F1AD83E00EB2304 /* CardValidator.swift */,
+			);
+			name = validator;
+			sourceTree = "<group>";
+		};
+		27F513531F1A747D003FCAC2 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE891F1A1A8000CB03AC /* Common.swift */,
+				2750DE8B1F1A1ADE00CB03AC /* CommonFunctionality.swift */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		27F513541F1A7492003FCAC2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				273672A41F1A29BD00D4477D /* MapViewController.swift */,
+				277ABEDA1F1ABCDE00EB2304 /* PaymentTableviewCell.swift */,
+				277ABED81F1AB94F00EB2304 /* ViewPaymentsViewController.swift */,
+				277ABED31F1AA9C900EB2304 /* CycleRentPaymentViewController.swift */,
+				2750DE871F1A1A5000CB03AC /* LoginScreenViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		27F513551F1A74A1003FCAC2 /* App delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE671F1A19A400CB03AC /* AppDelegate.swift */,
+			);
+			name = "App delegate";
+			sourceTree = "<group>";
+		};
+		27F513561F1A74B6003FCAC2 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				27F5134F1F1A4F93003FCAC2 /* LocationStruct.swift */,
+				277ABEDC1F1ABF1200EB2304 /* PaymentStruct.swift */,
+			);
+			name = Struct;
+			sourceTree = "<group>";
+		};
+		27F513571F1A74C1003FCAC2 /* Backend url */ = {
+			isa = PBXGroup;
+			children = (
+				27F513511F1A7048003FCAC2 /* BackendUrl.swift */,
+			);
+			name = "Backend url";
+			sourceTree = "<group>";
+		};
+		27F513581F1A74D9003FCAC2 /* interface files */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE6B1F1A19A400CB03AC /* Main.storyboard */,
+				2750DE701F1A19A400CB03AC /* LaunchScreen.storyboard */,
+			);
+			name = "interface files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		27F513591F1A74F7003FCAC2 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE731F1A19A400CB03AC /* Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		27F5135A1F1A7502003FCAC2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2750DE6E1F1A19A400CB03AC /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		27F5135B1F1A7513003FCAC2 /* Read me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Read me";
+			sourceTree = "<group>";
+		};
+		27F5135C1F1A752C003FCAC2 /* Network related functionality */ = {
+			isa = PBXGroup;
+			children = (
+				27F5135D1F1A756A003FCAC2 /* IJReachability.swift */,
+			);
+			name = "Network related functionality";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2750DE631F1A19A400CB03AC /* Jitensha Saitama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2750DE811F1A19A500CB03AC /* Build configuration list for PBXNativeTarget "Jitensha Saitama" */;
+			buildPhases = (
+				2750DE601F1A19A400CB03AC /* Sources */,
+				2750DE611F1A19A400CB03AC /* Frameworks */,
+				2750DE621F1A19A400CB03AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jitensha Saitama";
+			productName = "Jitensha Saitama";
+			productReference = 2750DE641F1A19A400CB03AC /* Jitensha Saitama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2750DE771F1A19A500CB03AC /* Jitensha SaitamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2750DE841F1A19A500CB03AC /* Build configuration list for PBXNativeTarget "Jitensha SaitamaTests" */;
+			buildPhases = (
+				2750DE741F1A19A500CB03AC /* Sources */,
+				2750DE751F1A19A500CB03AC /* Frameworks */,
+				2750DE761F1A19A500CB03AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2750DE7A1F1A19A500CB03AC /* PBXTargetDependency */,
+			);
+			name = "Jitensha SaitamaTests";
+			productName = "Jitensha SaitamaTests";
+			productReference = 2750DE781F1A19A500CB03AC /* Jitensha SaitamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2750DE5C1F1A19A400CB03AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mohammad Zulqurnain";
+				TargetAttributes = {
+					2750DE631F1A19A400CB03AC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8S58D25632;
+						ProvisioningStyle = Automatic;
+					};
+					2750DE771F1A19A500CB03AC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8S58D25632;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2750DE631F1A19A400CB03AC;
+					};
+				};
+			};
+			buildConfigurationList = 2750DE5F1F1A19A400CB03AC /* Build configuration list for PBXProject "Jitensha Saitama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2750DE5B1F1A19A400CB03AC;
+			productRefGroup = 2750DE651F1A19A400CB03AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2750DE631F1A19A400CB03AC /* Jitensha Saitama */,
+				2750DE771F1A19A500CB03AC /* Jitensha SaitamaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2750DE621F1A19A400CB03AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750DE721F1A19A400CB03AC /* LaunchScreen.storyboard in Resources */,
+				277ABEE41F1AD98200EB2304 /* AKPickerView-Swift.podspec in Resources */,
+				2750DE6F1F1A19A400CB03AC /* Assets.xcassets in Resources */,
+				2750DE6D1F1A19A400CB03AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2750DE761F1A19A500CB03AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2750DE601F1A19A400CB03AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273672A51F1A29BD00D4477D /* MapViewController.swift in Sources */,
+				27F513521F1A7048003FCAC2 /* BackendUrl.swift in Sources */,
+				277ABEE01F1AD83E00EB2304 /* CardValidator.swift in Sources */,
+				2750DE8A1F1A1A8000CB03AC /* Common.swift in Sources */,
+				27F5135E1F1A756A003FCAC2 /* IJReachability.swift in Sources */,
+				277ABEE51F1AD98200EB2304 /* AKPickerView.swift in Sources */,
+				2750DE681F1A19A400CB03AC /* AppDelegate.swift in Sources */,
+				2750DE8C1F1A1ADE00CB03AC /* CommonFunctionality.swift in Sources */,
+				277ABEDB1F1ABCDE00EB2304 /* PaymentTableviewCell.swift in Sources */,
+				277ABED71F1AAE4200EB2304 /* MonthYearPickerView.swift in Sources */,
+				2750DE881F1A1A5000CB03AC /* LoginScreenViewController.swift in Sources */,
+				277ABEDD1F1ABF1200EB2304 /* PaymentStruct.swift in Sources */,
+				27F513501F1A4F93003FCAC2 /* LocationStruct.swift in Sources */,
+				277ABED91F1AB94F00EB2304 /* ViewPaymentsViewController.swift in Sources */,
+				277ABED41F1AA9C900EB2304 /* CycleRentPaymentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2750DE741F1A19A500CB03AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750DE7D1F1A19A500CB03AC /* Jitensha_SaitamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2750DE7A1F1A19A500CB03AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2750DE631F1A19A400CB03AC /* Jitensha Saitama */;
+			targetProxy = 2750DE791F1A19A500CB03AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2750DE6B1F1A19A400CB03AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750DE6C1F1A19A400CB03AC /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Jitensha Saitama";
+			sourceTree = "<group>";
+		};
+		2750DE701F1A19A400CB03AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750DE711F1A19A400CB03AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "Jitensha Saitama";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2750DE7F1F1A19A500CB03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2750DE801F1A19A500CB03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2750DE821F1A19A500CB03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8S58D25632;
+				INFOPLIST_FILE = "Jitensha Saitama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Truffle.tech.zain.Jitensha-Saitama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2750DE831F1A19A500CB03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8S58D25632;
+				INFOPLIST_FILE = "Jitensha Saitama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Truffle.tech.zain.Jitensha-Saitama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2750DE851F1A19A500CB03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8S58D25632;
+				INFOPLIST_FILE = "Jitensha SaitamaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Truffle.tech.zain.Jitensha-SaitamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitensha Saitama.app/Jitensha Saitama";
+			};
+			name = Debug;
+		};
+		2750DE861F1A19A500CB03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8S58D25632;
+				INFOPLIST_FILE = "Jitensha SaitamaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Truffle.tech.zain.Jitensha-SaitamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitensha Saitama.app/Jitensha Saitama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2750DE5F1F1A19A400CB03AC /* Build configuration list for PBXProject "Jitensha Saitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750DE7F1F1A19A500CB03AC /* Debug */,
+				2750DE801F1A19A500CB03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2750DE811F1A19A500CB03AC /* Build configuration list for PBXNativeTarget "Jitensha Saitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750DE821F1A19A500CB03AC /* Debug */,
+				2750DE831F1A19A500CB03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2750DE841F1A19A500CB03AC /* Build configuration list for PBXNativeTarget "Jitensha SaitamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750DE851F1A19A500CB03AC /* Debug */,
+				2750DE861F1A19A500CB03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2750DE5C1F1A19A400CB03AC /* Project object */;
+}

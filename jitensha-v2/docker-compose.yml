@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
+  web:
+    build: .
+    image: jitensha:v2
+    command: bash -c "node insert-places-test.js && npm start"
+    links:
+      - mongo
+    ports:
+      - '3000:3000'
+      - '3443:3443'

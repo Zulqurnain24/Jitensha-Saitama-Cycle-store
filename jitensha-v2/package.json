@@ -1,0 +1,25 @@
+{
+  "name": "jitensha-v2",
+  "version": "0.0.2",
+  "description": "じてんしゃ - Saitama Rent a bike seach Api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "adriano.alencar@crossover.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "creditcard": "^0.1.2",
+    "http-status-codes": "^1.0.6",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.3.0",
+    "koa-jwt": "^1.2.0",
+    "koa-morgan": "^0.4.0",
+    "koa-router": "^5.4.0",
+    "mongoose": "^4.7.4",
+    "mongoose-validate": "0.0.5",
+    "nconf": "^0.8.4",
+    "winston": "^2.3.0"
+  }
+}

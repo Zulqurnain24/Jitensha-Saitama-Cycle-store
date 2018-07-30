@@ -1,0 +1,15 @@
+{
+    "port": 3443,
+    "dev-port": 3000,
+    "expire": 86400,
+    "secret": "zVPEiDAprtOlXJQ4XyZPN5FRJph1WN12vP3OkiJHITVJewUn",
+    "algorithm": "aes-256-ctr",
+    "https": {
+        "key": "ssl/jitensha.pem",
+        "cert": "ssl/jitensha.crt"
+    },
+    "database": {
+        "uri": "mongodb://localhost/jitensha"	
+    }
+}
+
